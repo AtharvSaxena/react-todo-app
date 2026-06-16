@@ -1,30 +1,33 @@
-Project Name
+# TO-DO-LIST APP
 
-Description
+Just Like A Normal To-Do-List App, It Is A Platform Where Users Can List Down There Daily To-Do Tasks. The Tasks Are Presented In A Form Of List. Allows Users To Add Tasks, Mark Them As Complete Upon Completion, And Delete Them When Required.
 
-Features
+The App Is Fully Build Using **React Components** And Supports **Responsiveness** Across Multiple Devices. The App Has Been Tried To Be Designed Sleek And Modern.
 
-Tech Stack
+## Features:
 
-Installation
+- ### Add Tasks :-
 
-Future Improvements
+  User Can Enter Their Tasks In A Provided Textbox And Click On The _Add_ Button To Add The Task In The To-Do List.
 
-# React + Vite
+- ### Marks Task As Complete :-
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  Upon Completion Of A Task, The User Can Mark The Task As Completed By Clicking A "✔️" Button. The Completed Tasks Are Turned Grayed And Has A Strikethrough.
 
-Currently, two official plugins are available:
+- ### Delete Tasks :-
+  Users Can Delete The Tasks If They Wish To By Clicking On A "❌" Button. The Deletion Cannot Be Reserved And Removed The Task Forever Until Added Back Using The Textbox And _Add_ Button.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack:
 
-## React Compiler
+- HTML
+- CSS
+- JS
+- React
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Future Improvements:
 
-Note: This will impact Vite dev & build performances.
+The App Is Still Not Finished, It Can Have The Following Improvements In Future To Make It Better:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Add Local Storage
+2. Improve UI
+3. Add Custom Cursor And Animations
