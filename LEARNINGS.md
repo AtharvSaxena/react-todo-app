@@ -3,11 +3,11 @@ Day 1
 Learned:
 
 - React state updates
-- Component composition
+- List items rendering
+- Flex boxes
 
 Challenge:
-Tasks were not re-rendering.
+Tasks were not rendering.
 
 Solution:
-State was being mutated directly.
-Used spread operator instead.
+Used `map` function in which i used arrow function with `task` and `index` as parameters. The `task` value is passed rendering text and `index` is used as key to the `li` tag.
