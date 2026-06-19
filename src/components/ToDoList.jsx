@@ -42,6 +42,7 @@ function ToDoList() {
 
   function deleteItem(id) {
     setItems(items.filter((item) => item.id !== id));
+    setCompleteItems(completeItems.filter((item) => item.id !== id));
   }
 
   function markItemAsComplete(id, text, completed) {
@@ -76,6 +77,11 @@ function ToDoList() {
           placeholder="What's your next focus?..."
           value={newItem}
           onChange={handleInputChange}
+          onKeyDown={(e) => {
+            if (e.key === "Enter") {
+              addItem();
+            }
+          }}
         />
         <button className="add-btn" onClick={addItem}>
           +
