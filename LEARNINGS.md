@@ -26,6 +26,7 @@ Learned:
 - Filter & Map function
 - Glassmorphism effect
 - Conditional CSS styling
+- onKeyDown for input boxes
 
 Challenge:
 Marking specific list items as complete. Tried assinging a new variable for completed items but did not work. All items were turning complete/incomplete.

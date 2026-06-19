@@ -31,9 +31,9 @@ The Design For The To-Do-List App Is Taken From **Google Gemini**. Ofcourse The 
 The App Is Still Not Finished, It Can Have The Following Improvements In Future To Make It Better:
 
 1. Add Local Storage
-2. Improve UI
-3. Add Custom Cursor And Animations
-4. Allow Actions For Add, MarkAsComplete, And Delete Using Keyboard Keys.
+2. Improve UI And Add Dark/Light Theme Toggle.
+3. Add Custom Cursor And Animations.
+4. Allow Actions For MarkAsComplete And Delete Using Keyboard Keys As Well.
 5. Allow Cross Import/Export Of The To-Do-List.
 6. Add Features For Pomodoro Study Sessions And Time Clock For Quality Focus Study Sessions.
 7. Allow Time Recording For Tasks To Keep Track Of Utilized Time For Completion Of An Task.
