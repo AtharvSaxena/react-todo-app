@@ -23,8 +23,6 @@ function ToDoList() {
 
   const [newItem, setNewItem] = useState("");
 
-  const [active, setActive] = useState(false);
-
   const leftTasks = items.length;
 
   function handleInputChange(event) {
